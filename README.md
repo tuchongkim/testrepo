@@ -2,7 +2,7 @@
 ![Static Badge](https://img.shields.io/badge/precourse-week1-<color>)
 ![Static Badge](https://img.shields.io/badge/version-1.0-informational)
 
-> 우아한테크코스 6기 1주차 미션 진행을 위한 저장소입니다.
+> 1부터 9까지 서로 다른 수로 이루어진 3자리의 수를 맞추는 게임입니다.
 
 ## 🚀 기능 목록
 
@@ -19,7 +19,7 @@
   + 재시작 처리
   + 게임 완전 종료
 - 잘못된 값을 입력하는 경우
-  + IllegalArgumentException 발생, 애플리케이션 종료
+  + `IllegalArgumentException`발생, 애플리케이션 종료
 
 ### 사용자의 3자리 수 생성
 - 입력값을 바탕으로 3자리수 생성
@@ -30,7 +30,7 @@
 - 같은 수가 전혀 없으면 '낫싱'
 
 ### 결과 출력
-- 정담을 못 맞춘 경우
+- 정답을 못 맞춘 경우
   + 힌트 출력
 - 정답을 맞춘 경우
   + 게임 종료 문구 출력
